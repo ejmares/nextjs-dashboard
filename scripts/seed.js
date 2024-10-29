@@ -1,4 +1,5 @@
 require("dotenv").config();
+const { sql } = require("@vercel/postgres");
 
 const { db } = require('@vercel/postgres');
 const {
